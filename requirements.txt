@@ -1,0 +1,12 @@
+requests==2.18.1
+bs4
+github3.py
+arxiv
+python-dateutil
+pyyaml
+bibtexparser
+joblib
+scikit-learn
+gitpython
+markdown
+importlib_resources

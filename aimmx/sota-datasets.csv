@@ -1,0 +1,640 @@
+Pascal3D+
+Company*
+VQA 2.0
+Atari 2600 Private Eye
+MSCOCO
+HPatches
+DeepMind Finger Spin (Images)
+Long-tail emerging entities
+DeepMind Cartpole Swingup (Images)
+WikiBio
+SemEval-2010 Task 8
+Helpdesk
+Atari 2600 Asterix
+IJB-B
+WebQSP-WD
+WOS-11967
+Librispeech
+TrecQA
+MovieLens 1M
+D&D
+WMT2016 English-Romanian
+Yelp Binary classification
+COCO Visual Question Answering (VQA) real images 2.0 open ended
+WebQuestions
+Ohsumed
+AG News
+RVL-CDIP
+NABirds
+Atari 2600 Enduro
+CARS196
+FIB-25 Whole Test
+CT-150
+SQuAD
+Resume NER
+Noun Phrase Canonicalization
+TREC-6
+CityPersons
+CR
+GigaWord
+Atari 2600 Battle Zone
+QM9
+BSD100 - 4x upscaling
+Caltech Lanes Washington
+Children's Book Test
+FLIC Elbows
+ChemProt
+ImageNet VID
+Atari 2600 Crazy Climber
+INRIA Holidays
+Xiph HD - 4x upscaling
+COCO Visual Question Answering (VQA) real images 1.0 multiple choice
+SemEval 2007 Task 7
+Atari 2600 Road Runner
+Set5-2x
+BPI challenge '12
+FGNET
+DeepMind Cheetah Run (Images)
+TREC Robust04
+Rotowire (Content Selection)
+Atari 2600 Centipede
+SentEval
+CHiME-4 real 6ch
+DukeMTMC-reID
+R8
+SST-5 Fine-grained classification
+WikiText-2
+OMNIGLOT - 5-Shot Learning
+Cohn-Kanade
+SUBJ
+ShanghaiTech B
+IWSLT2015 English-German
+street2shop - topwear
+Office-Home
+SBD
+VggFace2
+MS MARCO
+Chinese Poems
+CoNLL-2014 10 Annotations
+TACRED
+CoNLL 2012
+PASCAL VOC 2012
+Atari 2600 Berzerk
+VisDA2017
+LDC2015E86:
+Quasar
+RE-M5K
+OCHuman
+Twitter Dialogue (Noun)
+CamVid
+Atari 2600 Seaquest
+Atari 2600 Robotank
+BRATS-2015
+Switchboard + Hub500
+Atari 2600 Montezuma's Revenge
+Data3D−R2N2
+MUTAG
+TriviaQA
+BUCC French-to-English
+MRR
+Urban100 sigma30
+JIGSAWS
+RaFD
+MR
+MSU-MFSD
+ImageNet Detection
+Atari 2600 Space Invaders
+ Static Facial Expressions in the Wild
+CUFSF
+MSRC-21 (per-class)
+ShanghaiTech A
+OccludedLINEMOD
+LineMOD
+LDC2016E25
+Olivetti Faces 5 Image
+COLLAB
+Bosch Small Traffic Lights
+PhC-U373
+KITTI Novel View Synthesis
+DensePose-COCO
+fisher WER
+AFLW-LFPA
+Reuters-21578
+Flowers-102
+Click-Through Rate Prediction
+QAngaroo
+Mini-ImageNet - 1-Shot Learning
+UCF101
+Image-CLEF
+XNLI Zero-Shot English-to-French
+E2E NLG Challenge
+RotoWire
+Visual Genome (subjects)
+IJB-A
+RecipeQA
+SciCite
+CoNLL 2005
+CUFS
+KITTI Cars Hard
+Indian Pines
+Mushroom
+Tsinghua-Tencent 100K
+YahooCQA
+WIDER Face (Easy)
+GLUE
+Vid4 - 4x upscaling
+MSRA
+Switchboard corpus
+UT Multi-view
+Atari 2600 Boxing
+CompCars
+MovieLens 100K
+WMT 2014 EN-DE
+Atari 2600 Yars Revenge
+WebNLG
+UD
+spider
+UCF CC 50
+ChaLearn 2015
+CMU-SE
+ECCV HotOrNot
+AFLW2000-3D
+ImageCLEF-DA
+SUN-RGBD
+CHiME real
+AFAD
+WMT2016 Russian-English
+Knowledge-based:
+SNLI
+JFLEG
+IWSLT2015 Thai-English
+Stanford Cars
+DISFA
+Urban100 - 4x upscaling
+SemEval 2014 Task 4 Sub Task 2
+PanoContext
+LSUN Bedroom
+EBM-NLP
+WMT 2014 EN-FR
+CCGBank
+Sentihood
+Mini-ImageNet - 5-Shot Learning
+ILSVRC 2015
+PETA
+DeepMind Cup Catch (Images)
+EMNLP2017 WMT
+STS Benchmark
+MultiRC
+RE-M12K
+KITTI Pedestrians Easy
+WIDER Face (Medium)
+Oxford 102 Flowers
+METR-LA
+SR11Deep
+Atari 2600 HERO
+NYU Hands
+WMT2016 German-English
+YCB-Video
+XNLI Zero-Shot English-to-Spanish
+WikiText-103
+Atari 2600 Wizard of Wor
+FFHQ
+WSJ eval92
+ILSVRC 2016
+STARE
+Scan2CAD
+PASCAL-Person-Part
+COCO Captions
+ActivityNet-Entities
+Yahoo! Answers
+BUS 2017 Dataset B
+Leeds Sports Poses
+VoxForge Indian
+CoNLL-2014 Shared Task
+COMPLEXQUESTIONS
+ImageNet 128x128
+Sintel-clean
+Atari 2600 Demon Attack
+Realtor360
+Stanford Dogs
+KITTI Cars Easy
+Edge-to-Handbags
+Atari 2600 Frostbite
+Atari 2600 Double Dunk
+Fine-grained WSD:
+COCO-Stuff-15
+Amazon Review Full
+CoQA
+wireframe dataset
+Office-31
+Winograd Schema Challenge
+Warning: Evaluation Metrics
+QASent
+SLAM 2018
+CUB-200-2011
+COCO Visual Question Answering (VQA) real images 1.0 open ended
+Atari 2600 Asteroids
+PCBA
+SensEval 3 Task 1
+iNaturalist
+ToxCast
+SighanNER
+Atari 2600 Chopper Command
+Hutter Prize
+AI2 Kaggle Dataset
+DeepMind Walker Walk (Images)
+ADE20K-Outdoor Labels-to-Photos
+JNLPBA
+MSRA Hands
+DailyDialog
+Supervised:
+MPII Gaze
+IJB-C
+300W
+BSD200 sigma30
+MCTest-500
+Atari 2600 Assault
+WOS-5736
+SST
+TREC
+Dianping
+Second dialogue state tracking challenge
+GTAV-to-Cityscapes Labels
+WAF
+Atari 2600 Pitfall!
+Atari 2600 Video Pinball
+UTKFace
+Fashion-MNIST
+enwiki8
+WN18
+WikiHop
+MS-COCO
+HotpotQA
+HANDS 2017
+Penn Treebank (Word Level)
+3DMatch Benchmark
+Labeled Faces in the Wild
+SemEvalCQA
+MMI
+Monologue
+VoxForge Commonwealth
+SARC (pol-bal)
+Barrett’s Esophagus
+WOS-46985
+SemEval 2018
+Atari 2600 Kung-Fu Master
+North American English
+cifar-10,4000
+WMT2015 English-Russian
+Ubuntu Dialogue (Entity)
+LibriSpeech test-clean
+CoNLL-2014 A1
+CIFAR-10, 4000 Labels
+MovieLens
+Music domain
+CIHP
+CIFAR-10
+HIV dataset
+SYNTHIA Fall-to-Winter
+TIMIT
+SQuAD1.1
+Weibo NER
+Yahoo Questions
+BlogCatalog
+Atari 2600 Freeway
+MORPH
+BUCC German-to-English
+CoNLL-2014 A2
+WMT2016 Romanian-English
+WMT2016 Czech-English
+Stanford 2D-3D
+ FB15k
+One Billion Word
+TrailerFaces
+Million Song Dataset
+Atari 2600 Solaris
+Atari-57
+SARC (pol-unbal)
+MultiNLI
+Atari 2600 Phoenix
+BRATS 2018
+Yelp Fine-grained classification
+Set14 - 4x upscaling
+Google Dataset
+COCO-Stuff-3
+BRATS-2013
+LSUN Bedroom 256 x 256
+Visual7W
+CUB-200 - 0-Shot Learning
+PolyAI AmazonQA
+Tox21
+SciTail
+ScanNet
+SVHN, 1000 labels
+SemEval 2013 Task 12
+BSD68 sigma70
+WMT2016 English-Russian
+Cityscapes
+Event2Mind
+MLDoc Zero-Shot English-to-French
+CliCR
+Pavia University
+WikiQA
+VoxForge American-Canadian
+CNN / Daily Mail
+Atari 2600 Beam Rider
+Ontonotes v5 (English)
+SST-2 Binary classification
+ACE 2004
+NELL
+BSD200 sigma10
+RACE
+TCIA Pancreas-CT
+ISBI 2012 EM Segmentation
+LDC2014T12:
+Set5 - 4x upscaling
+AFLW-Full
+ADE20K
+AFLW2000
+SKU-110K
+BSD68 sigma15
+Real-World Affective Faces
+Oxf5k
+NYU Depth v2
+FCE
+CIFAR-20
+RotoWire (Content Ordering)
+MOSI
+Atari 2600 Tutankham
+IMDb-B
+SegEM
+CUB
+T-LESS
+GENIA - UAS
+Text8
+CelebA-HQ 128x128
+KITTI Cyclists Moderate
+COCO 2014
+KITTI Pedestrians Moderate
+FG-NET
+Atari 2600 Krull
+SARC (all-bal)
+Potsdam
+RT-GENE
+MAFA
+Twitter Dialogue (Tense)
+The ARRAU Corpus
+SVNH-to-MNIST
+RAP
+GPS
+MCTest-160
+BSD68 sigma10
+QuAC
+STL-10
+CIFAR-100
+PA-100K
+Atari 2600 Gravitar
+SensEval 2
+Atari 2600 Zaxxon
+MORPH Album2
+FIB-25 Synaptic Sites
+MLDoc Zero-Shot English-to-Spanish
+IMDb-M
+COCO 2017
+Penn Treebank (Character Level)
+ShapeNet
+SemEval
+ICSI Meeting Recorder Dialog Act (MRDA) corpus
+PROMISE 2012
+CHALL H80K
+MHP v1.0
+Synthia Novel View Synthesis
+Paper Field
+ENZYMES
+Oxf105k
+MSRC-21 (per-pixel)
+iSEG 2017 Challenge
+SQuAD2.0
+New York Times Corpus
+KITTI Cyclists Easy
+COCO Visual Question Answering (VQA) abstract 1.0 multiple choice
+ImageNet
+svhn,1000
+CAT 256x256
+RotoWire (Relation Generation)
+Bing News
+WikiSQL
+Social media
+KITTI Cyclists Hard
+IC17-MLT
+FDDB
+Atari 2600 Skiing
+PubMed 20k RCT
+Florence
+FLIC Wrists
+Cityscapes Photo-to-Labels
+Ubuntu Dialogue (Tense)
+MIMIC-III
+Atari 2600 Fishing Derby
+SVHN
+MUV
+WMT2014 French-English
+ISIC 2018
+WIDER Face (Hard)
+Cityscapes Labels-to-Photo
+IDHP
+LexNorm
+Atari 2600 Time Pilot
+Atari 2600 Pong
+Potsdam-3
+Sogou News
+PASCAL VOC 2007
+Ubuntu Dialogue (Cmd)
+Photo-Art-50
+DuReader
+IC15
+Atari 2600 Gopher
+COCO-Stuff Labels-to-Photos
+FB15k-237
+ShapeNet-Part
+WSJ eval93
+Human3.6M
+Switchboard (300hr)
+Natural Questions
+IMDb
+Atari 2600 River Raid
+Quora Question Pairs
+RumourEval
+SearchQA
+BSD200 sigma70
+Kaggle Skin Lesion Segmentation
+KITTI Cars Moderate
+CoNLL 2003 (English)
+Charades
+AFLW-Front
+SciERC
+IEMOCAP
+Google Street Images
+Flixster
+ITOP top-view
+Wizard-of-Oz
+NCI1
+CACDVS
+IWSLT2015 German-English
+PolyAI OpenSubtitles
+MNIST
+BIWI
+Story Cloze Test
+FGVC Aircraft
+Amazon Review Polarity
+VQA v2
+Query Wellformedness
+Urban100 sigma70
+TREC-50
+Cora
+Atari 2600 Surround
+Aerial-to-Map
+COCO Visual Question Answering (VQA) abstract images 1.0 open ended
+SK-LARGE
+TimeBank
+LFW
+GTSRB
+TuSimple
+Par6k
+WMT2016 English-Czech
+PROTEINS
+Manga109 - 4x upscaling
+Atari 2600 Q*Bert
+Ultra Video Group HD - 4x upscaling
+NewsQA
+UNBC-McMaster ShoulderPain dataset
+KITTI Pedestrians Hard
+Edge-to-Shoes
+Yelp
+MegaFace
+MLDoc Zero-Shot English-to-German
+Par106k
+OntoNotes 4
+Atari 2600 Name This Game
+CACD
+MPII Multi-Person
+WebFace
+Caltech Lanes Cordova
+V-SNLI
+WMT2016 English-German
+DUC 2004 Task 1
+BSD68 sigma50
+SimpleQuestions
+MovieLens 10M
+Chinese License Plates
+ACE 2005
+ ITOP front-view
+Atari 2600 Venture
+swb_hub_500 WER fullSWBCH
+ScienceCite
+PASCAL Context
+Cats-and-Dogs
+bAbi
+Citeseer
+YouTube Faces DB
+Douban
+GENIA - LAS
+ShapeNet Chair
+GENIA
+BP4D
+SCUT-CTW1500
+CAFR
+WMT2014 English-German
+Atari 2600 Up and Down
+SYNTHIA-to-Cityscapes
+ShapeNet Car
+Atari 2600 Bowling
+PASCAL VOC 2012, 60 proposals per image
+Atari 2600 Bank Heist
+Reverb
+Atari 2600 Atlantis
+OCCLUSION
+ICVL Hands
+Caltech
+ELO Ratings
+Penn Treebank
+Medical domain
+Atari 2600 Star Gunner
+SemEval 2007 Task 17
+BSD68 sigma25
+20NEWS
+DIC-HeLa
+MovieLens 20M
+ACL-ARC
+CelebA
+OntoNotes
+Atari 2600 James Bond
+LUNA
+OpenAI Gym
+CREMI
+Oxford-IIIT Pets
+Atari 2600 Ms. Pacman
+CHASE_DB1
+ADE20K Labels-to-Photos
+DBpedia
+WN18RR
+PolyAI Reddit
+NarrativeQA
+VoxForge European
+Sintel-final
+PASCAL Face
+SCUT-FBP
+Atari 2600 Kangaroo
+YahooMusic
+Ubuntu Dialogue (Activity)
+BSD68 sigma30
+WMT2015 English-German
+Atari 2600 Ice Hockey
+DeepMind Cartpole Balance (Images)
+BSD200 sigma50
+CIFAR-10 Image Classification
+Pubmed
+ModelNet40
+MultiMNIST
+MPII Human Pose
+R52
+Caltech-101
+Visual Genome (pairs)
+Atari 2600 Tennis
+Disguised Faces in the Wild
+Atari 2600 Breakout
+WMT2014 German-English
+Netflix
+LibriSpeech test-other
+BC5CDR
+ISIC 2017
+MPQA
+COCO
+XNLI Zero-Shot English-to-German
+Multi-Domain Sentiment Dataset
+Criteo
+Sequential MNIST
+WMT2014 English-French
+CHiME clean
+Market-1501
+Atari 2600 Amidar
+Urban100 sigma50
+OMNIGLOT - 1-Shot Learning
+Amazon
+YAGO3-10
+Mandarin Chinese
+HMDB51
+SWAG
+iPinYou
+SemEval 2018 Task 1E-c
+Atari 2600 Defender
+NCBI-disease
+VOT2017/18
+Wikipedia
+CelebA-HQ 1024x1024
+TempEval-3
+CUHK
+Annotated Faces in the Wild
+SemEval 2015 Task 13
+MHP v2.0
+Atari 2600 Alien
