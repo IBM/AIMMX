@@ -3,6 +3,10 @@ AI Model Metadata eXtractor
 
 Python library that infers and extracts AI model-specific metadata from GitHub repositories.
 
+[Paper at the Mining Softawre Repositories Conference 2020 describing AIMMX](http://www.jsntsay.com/publications/tsay-msr2020.pdf)
+
+[Video of talk at the Mining Software Repositories Conference 2020 describing AIMMX](https://www.youtube.com/watch?v=uMpbXh19rTE)
+
 ## Requirements
 
 Runs on Python3 with the dependencies as described in `requirements.txt`
