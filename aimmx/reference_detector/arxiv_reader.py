@@ -94,6 +94,6 @@ def get_arxiv_id(id):
             "year": published.year,
             "url": result.arxiv_url
         }
-        if result.summary:
+        if "summary" in result:
             paper_info["abstract"] = result.summary
     return paper_info
