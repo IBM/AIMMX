@@ -37,6 +37,7 @@ def look_for_arxiv_fulltext(text):
     if found and len(found) > 0:
         for f in found:
             ids.add(f)
+
     found = arxiv_pdf_re.findall(text)
     if found and len(found) > 0:
         for f in found:
@@ -44,7 +45,9 @@ def look_for_arxiv_fulltext(text):
 
     paper_info = []
     for i in ids:
-        paper_info.append(get_arxiv_id(i))
+        info = get_arxiv_id(i)
+        if info:
+            paper_info.append(info)
     return paper_info
 
 # Given array of lines, look for arxiv and return info about each paper
@@ -68,7 +71,9 @@ def look_for_arxiv(lines, start=0, end=None):
 
     paper_info = []
     for i in ids:
-        paper_info.append(get_arxiv_id(i))
+        info = get_arxiv_id(i)
+        if info:
+            paper_info.append(info)
     return paper_info
 
 # Given text, look for arxiv and return info about paper
@@ -83,6 +88,7 @@ def look_for_arxiv_id(text):
 
 def get_arxiv_id(id):
     results = arxiv.query(id_list=[id])
+    paper_info = None
     # assume one result
     if len(results) > 0:
         result = results[0]

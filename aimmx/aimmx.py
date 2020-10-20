@@ -6,6 +6,7 @@ from .util.readme_cleanup import readme_cleanup
 from .readme_parsers import readme_parse, readme_parse_text, get_readme_contents, get_readme_contents_from_path, is_readme_file, get_readme_contents_from_docstring
 from .framework_detector.framework_detector import repo_framework
 from .framework_detector.framework_extractor import extract_framework
+from .dataset_detector.dataset_detector import detect_datasets_list
 from .domain_inference.domain_inference import domain_inference
 from .util.caffe2_utils import value_json_to_schema
 import json
@@ -240,11 +241,38 @@ class AIMMX:
             specialfiles = detect_special_files(repo, tree_path=tree_path)
             result = merge_metadata(result, specialfiles)
 
-        # if README exists, attempt domain Inference
+        # if README exists, attempt domain Inference and dataset detection
         if readme_content:
             plain_readme = readme_cleanup(readme_content)
+
+            abstracts = ""
+            if "references" in result:
+                for r in result["references"]:
+                    if "abstract" in r:
+                        abstract = r["abstract"]
+                        abstract = abstract.strip().replace("\n", " ")
+                        abstracts +=  "\n{}".format(abstract)
+            if len(abstracts) > 0:
+                plain_readme += abstracts
+
             domain = domain_inference(plain_readme)
             result["domain"] = domain
+
+            # NOTE: currently only running on abstracts, should refactor to run on abstract + readme
+            abs_datasets = detect_datasets_list(abstracts)
+            if len(abs_datasets) > 0:
+
+                if "training" in result and "datasets" in result["training"]:
+                    dataset_names = set()
+                    datasets_to_add = []
+                    for d in result["training"]["datasets"]:
+                        dataset_names.add(d["name"].lower())
+                    for d in abs_datasets:
+                        if d["name"].lower() not in dataset_names:
+                            datasets_to_add.append(d)
+                    result["training"]["datasets"] += datasets_to_add
+                else:
+                    result["training"]["datasets"] = abs_datasets
 
         # attempt to extract framework via cloning
         framework_result = extract_framework(repo_url)

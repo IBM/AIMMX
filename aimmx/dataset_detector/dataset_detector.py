@@ -15,6 +15,11 @@ BOUNDRY_PATTERN = "(\s|\W)?"
 
 DATASET_LIST_PATH = "sota-datasets.csv"
 
+def detect_datasets_list(readme):
+    dataset_list = load_dataset_list()
+    list_datasets = find_dataset_from_list(readme, dataset_list)
+    return list_datasets
+
 def detect_datasets(readme, blob_link):
     dataset_list = load_dataset_list()
     datasets_found = []

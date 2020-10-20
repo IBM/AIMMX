@@ -360,7 +360,6 @@ def check_model_metadata_table(readme):
     return metadata
 
 def readme_parse_text(readme, blob_link, check_datasets=False):
-    #refs = check_readme_refs(readme)
     refs = detect_references(readme)
     metadata = check_model_metadata_table(readme)
     #print(refs)

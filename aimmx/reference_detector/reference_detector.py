@@ -47,6 +47,7 @@ def detect_references(readme):
 
     arxiv_ids = set()
     arxiv_papers = look_for_arxiv_fulltext(readme)
+
     for a in arxiv_papers:
         arxiv_ids.add(a["arxiv"])
         paper_key = make_paper_key(a)
@@ -91,15 +92,15 @@ def detect_references(readme):
             if len(r.keys()) > len(found[paper_key].keys()):
                 found[paper_key] = r
 
-        if len(found.values()) > 0:
-            refs = []
-            for ref in found.values():
-                if "authors" in ref and isinstance(ref["authors"], str):
-                    ref["authors"] = ref["authors"].split(",")
-                refs.append(ref)
-            return {
-                "references": refs
-            }
+    if len(found.values()) > 0:
+        refs = []
+        for ref in found.values():
+            if "authors" in ref and isinstance(ref["authors"], str):
+                ref["authors"] = ref["authors"].split(",")
+            refs.append(ref)
+        return {
+            "references": refs
+        }
 
     return {}
 
