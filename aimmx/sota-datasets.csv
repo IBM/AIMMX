@@ -81,7 +81,7 @@ CoNLL 2012
 PASCAL VOC 2012
 Atari 2600 Berzerk
 VisDA2017
-LDC2015E86:
+LDC2015E86
 Quasar
 RE-M5K
 OCHuman
@@ -164,7 +164,6 @@ SUN-RGBD
 CHiME real
 AFAD
 WMT2016 Russian-English
-Knowledge-based:
 SNLI
 JFLEG
 IWSLT2015 Thai-English
@@ -221,14 +220,12 @@ KITTI Cars Easy
 Edge-to-Handbags
 Atari 2600 Frostbite
 Atari 2600 Double Dunk
-Fine-grained WSD:
 COCO-Stuff-15
 Amazon Review Full
 CoQA
 wireframe dataset
 Office-31
 Winograd Schema Challenge
-Warning: Evaluation Metrics
 QASent
 SLAM 2018
 CUB-200-2011
@@ -247,7 +244,6 @@ ADE20K-Outdoor Labels-to-Photos
 JNLPBA
 MSRA Hands
 DailyDialog
-Supervised:
 MPII Gaze
 IJB-C
 300W
@@ -351,7 +347,7 @@ BSD200 sigma10
 RACE
 TCIA Pancreas-CT
 ISBI 2012 EM Segmentation
-LDC2014T12:
+LDC2014T12
 Set5 - 4x upscaling
 AFLW-Full
 ADE20K
