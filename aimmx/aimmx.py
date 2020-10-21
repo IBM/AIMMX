@@ -71,7 +71,7 @@ class AIMMX:
                 "type": "repo",
                 "repo_type": "github",
                 "owner": owner,
-                "owner_details": repo.owner,
+                "owner_type": repo.owner.as_dict()["type"],
                 "name": repo_name,
                 "url": repo_url,
                 "stars": repo.stargazers_count,
