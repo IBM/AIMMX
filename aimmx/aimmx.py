@@ -274,7 +274,7 @@ class AIMMX:
                             datasets_to_add.append(d)
                     result["training"]["datasets"] += datasets_to_add
                 else:
-                    result["training"]["datasets"] = abs_datasets
+                    result["training"] = { "datasets": abs_datasets }
 
         # attempt to extract framework via cloning
         framework_result = extract_framework(repo_url)
