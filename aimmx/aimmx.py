@@ -71,10 +71,12 @@ class AIMMX:
                 "type": "repo",
                 "repo_type": "github",
                 "owner": owner,
+                "owner_details": repo.owner,
                 "name": repo_name,
                 "url": repo_url,
                 "stars": repo.stargazers_count,
                 "pushed_at": str(repo.pushed_at),
+                "created_at": str(repo.created_at),
                 "language": repo.language
             }]
         }
