@@ -17,4 +17,4 @@ with pkg_resources.path(models, 'isai.joblib') as f:
 
 def is_ai_inference(readme):
     result = is_ai_pipeline.predict([readme])
-    return result[0]
+    return bool(result[0])
