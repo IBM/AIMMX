@@ -8,6 +8,7 @@ from .framework_detector.framework_detector import repo_framework
 from .framework_detector.framework_extractor import extract_framework
 from .dataset_detector.dataset_detector import detect_datasets_list
 from .domain_inference.domain_inference import domain_inference
+from .is_ai_inference.is_ai_inference import is_ai_inference
 from .util.caffe2_utils import value_json_to_schema
 import json
 
@@ -26,6 +27,44 @@ class AIMMX:
             self._enterprise_token = enterprise_gh_creds[1]
             gh = GitHubEnterprise("https://github.ibm.com")
             self._gh_ent = gh.login(enterprise_gh_creds[0], password=enterprise_gh_creds[1])
+
+    def is_ai(self, repo_url):
+        if "github.ibm.com" in repo_url:
+            if not self._gh_ent:
+                raise Exception("Must provide enterprise GitHub credentials to extract from enterprise repositories.")
+            gh = self._gh_ent
+        else:
+            gh = self._gh
+
+        s = repo_url.split("/")
+        owner = s[3]
+        repo_name = s[4]
+        repo = gh.repository(owner, repo_name)
+
+        # check if the url given is a directory or single file
+        branch = None
+        tree_path = None
+        blob_path = None
+        if len(s) >= 8:
+            branch = s[6]
+            if s[5] == "tree":
+                tree_path = s[7:]
+            if s[5] == "blob":
+                blob_path = s[7:]
+
+        # Gets readme and does analysis
+        readme_content = None
+        # For single file case, treats docstring as the readme
+        if blob_path:
+            readme_content = get_readme_contents_from_docstring(repo, files[0][2].sha)
+        # Subfolder case and also if single file does not contain docstring
+        if tree_path and (not blob_path or readme_content is None):
+            readme_content = get_readme_contents_from_path(repo, tree_path)
+        # if subfolder case does not find a README, try with repo-level README
+        if readme_content is None:
+            readme_content = get_readme_contents(repo)
+        plain_readme = readme_cleanup(readme_content)
+        return is_ai_inference(plain_readme)
 
     def repo_parse(self, repo_url):
 

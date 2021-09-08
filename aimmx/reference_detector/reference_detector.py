@@ -141,8 +141,11 @@ def codeblock_search(readme):
     codeblock_re = re.compile(CODEBLOCK_PATTERN, re.M)
     result = codeblock_re.findall(readme)
     for match in result:
-        #print("regex match", match)
-        bib_results = bibtexparser.loads(match)
+        # print("regex match\n", match)
+        try:
+            bib_results = bibtexparser.loads(match)
+        except KeyError as e:
+            continue
         if len(bib_results.entries) > 0:
             for e in bib_results.entries:
                 ref = bibtexparser.customization.author(e)

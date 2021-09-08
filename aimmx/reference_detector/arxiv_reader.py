@@ -87,19 +87,20 @@ def look_for_arxiv_id(text):
     return None
 
 def get_arxiv_id(id):
-    results = arxiv.query(id_list=[id])
+    search = arxiv.Search(id_list=[id])
     paper_info = None
-    # assume one result
-    if len(results) > 0:
-        result = results[0]
-        published = parser.parse(result.published)
+    for result in search.results():
+        published = result.published
         paper_info = {
             "title": result.title,
-            "authors": result.authors,
             "arxiv": id,
             "year": published.year,
-            "url": result.arxiv_url
+            "url": result.entry_id
         }
-        if "summary" in result:
+        if hasattr(result, "summary"):
             paper_info["abstract"] = result.summary
+        if hasattr(result, "authors"):
+            paper_info["authors"] = []
+            for author in result.authors:
+                paper_info["authors"].append(author.name)
     return paper_info
