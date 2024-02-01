@@ -6,7 +6,7 @@ python-dateutil
 pyyaml
 bibtexparser
 joblib
-scikit-learn==0.23.2
+scikit-learn==1.0.1
 gitpython
 markdown
 importlib_resources
